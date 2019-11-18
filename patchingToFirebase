@@ -1,0 +1,6 @@
+from firebase import firebase
+firebase = firebase.FirebaseApplication('https://alt1-8f179.firebaseio.com', None)
+
+result = firebase.patch('/MyTemperatures/-LteNNWRQ5V9fyBmF78S/', {'Temperature': 17, 'Time': 630})
+
+print ("Patch compeleted")
