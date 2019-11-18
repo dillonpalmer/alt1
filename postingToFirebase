@@ -1,0 +1,7 @@
+from firebase import firebase
+firebase = firebase.FirebaseApplication('https://alt1-8f179.firebaseio.com', None)
+
+postedData = {"Temperature": 100, "Humidity": 100}
+firebase.post('/MyTemperatures', postedData)
+
+print ("Data posted.")
