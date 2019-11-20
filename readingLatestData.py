@@ -19,4 +19,4 @@ sleep(1)
 print(" ")
 
 print("Temperature: ", result[names[-1]]['Temperature'])
-
+print("Time: ", result[names[-1]]['Time'])
